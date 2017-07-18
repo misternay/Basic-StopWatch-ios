@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     
     var isPlaying = false
     
-    @IBAction func startButton(_ sender: AnyObject) {
+    @IBAction func startTime(_ sender: Any) {
         if(isPlaying) {
             return
         }
